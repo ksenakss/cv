@@ -1,0 +1,72 @@
+/* подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px "Roboto", sans-serif; */
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.avatar{
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: none; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+
+
+/* Box Model */
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+
+
+/* .social{
+    background-color: green;
+    padding: 15px;
+    margin: 5px;
+
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blueviolet;   
+} */
+
+/* 
+.box-model div{
+    float: left;
+    background-color: blueviolet;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
